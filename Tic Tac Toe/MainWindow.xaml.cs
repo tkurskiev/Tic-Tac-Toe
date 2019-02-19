@@ -51,6 +51,10 @@ namespace Tic_Tac_Toe
 
         #endregion
 
+        #region Private Helpers
+
+        #region NewGame
+
         /// <summary>
         /// Starts a new game and clears all values back to the start
         /// </summary>
@@ -76,6 +80,10 @@ namespace Tic_Tac_Toe
 
             mGameEnded = false;
         }
+
+        #endregion
+
+        #region Button_Click
 
         /// <summary>
         /// Handles a button click event
@@ -128,6 +136,10 @@ namespace Tic_Tac_Toe
             // Check for a winner
             CheckForWinner();
         }
+
+        #endregion
+
+        #region CheckForWinner
 
         /// <summary>
         /// Checks if there is a winner of a 3 line straight
@@ -261,5 +273,9 @@ namespace Tic_Tac_Toe
 
             #endregion
         }
+
+        #endregion
+
+        #endregion
     }
 }
